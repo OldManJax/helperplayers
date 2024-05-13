@@ -1,0 +1,18 @@
+{
+   "name": "[B][COLOR snow]Otaku[/COLOR][/B]",
+   "plugin": "plugin.video.otaku",
+   "priority": 500,
+   "is_resolvable": "false",
+   "search_movie": [
+      "plugin://plugin.video.otaku/search,return",
+      {
+         "keyboard": "{title}"
+      }
+   ],
+   "search_episode": [
+      "plugin://plugin.video.otaku/search,return",
+      {
+         "keyboard": "{showname}"
+      }
+   ]
+}

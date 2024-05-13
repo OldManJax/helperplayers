@@ -1,0 +1,8 @@
+{
+  "name" : "[COLOR orange]Diggz Free99[/COLOR]", 
+  "plugin" : "plugin.video.free99",
+  "priority" : 500,
+  "is_resolvable" : "true",  
+  "play_movie" : "plugin://plugin.video.free99/?action=play&title={title_+}&year={year}&imdb={imdb}&t={now}",
+  "play_episode" : "plugin://plugin.video.free99/?action=play&title={title_+}&year={year}&imdb={imdb}&tvdb={id}&season={season}&episode={episode}&tvshowtitle={clearname_+}&premiered={firstaired}&t={now}"
+}

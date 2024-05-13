@@ -1,0 +1,7 @@
+{
+    "name" : "[COLOR FFFF6B00]Elementum[/COLOR]",
+    "plugin" : "plugin.video.elementum",
+    "priority" : 400,
+    "play_movie" : "plugin://plugin.video.elementum/library/play/movie/{tmdb}",
+    "play_episode" : "plugin://plugin.video.elementum/library/play/show/{tmdb}/season/{season}/episode/{episode}"
+}

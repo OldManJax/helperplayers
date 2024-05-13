@@ -1,0 +1,9 @@
+{
+    "name" : "[COLOR FF00BFFF]Seren[/COLOR] (Source Select)",
+    "plugin" : "plugin.video.seren",
+    "priority" : 200,
+    "is_resolvable" : "true",
+    "play_movie" : "plugin://plugin.video.seren/?action=getSources&forceresumecheck=true&source_select=true&actionArgs=%7B%22item_type%22%3A%20%22movie%22%2C%20%22trakt_id%22%3A%20{trakt}%7D",
+    "play_episode" : "plugin://plugin.video.seren/?action=getSources&smartPlay=false&source_select=true&forceresumecheck=true&actionArgs=%7B%22episode%22%3A%20{episode}%2C%20%22item_type%22%3A%20%22episode%22%2C%20%22season%22%3A%20{season}%2C%20%22trakt_id%22%3A%20{trakt}%7D"
+
+}

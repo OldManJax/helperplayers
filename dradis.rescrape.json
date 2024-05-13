@@ -1,0 +1,8 @@
+{
+    "name" : "Dradis (Rescrape Menu Select)", 
+    "plugin" : "plugin.video.dradis", 
+    "priority" : 102, 
+    "is_resolvable" : "true", 
+    "play_episode" : "plugin://plugin.video.dradis/?action=rescrapeMenu&title={title_url}&year={showyear}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}", 
+    "play_movie" : "plugin://plugin.video.dradis/?action=rescrapeMenu&title={title_url}&year={year}&imdb={imdb}&tmdb={tmdb}&meta=%7B%22rating%22%3A+%22%22%2C+%22code%22%3A+%22{imdb}%22%2C+%22tmdb%22%3A+%22{id}%22%2C+%22imdb%22%3A+%22{imdb}%22%2C+%22year%22%3A+%22{year}%22%2C+%22duration%22%3A+%22%22%2C+%22plot%22%3A+%22{plot_escaped}%22%2C+%22votes%22%3A+%22%22%2C+%22title%22%3A+%22{title_url}%22%2C+%22fanart%22%3A+%22{fanart}%22%2C+%22tagline%22%3A+%22%22%2C+%22writer%22%3A+%22%22%2C+%22next%22%3A+%22%22%2C+%22poster%22%3A+%22{poster}%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22director%22%3A+%22%22%2C+%22studio%22%3A+%22%22%2C+%22genre%22%3A+%22%22%2C+%22metacache%22%3A+true%2C+%22premiered%22%3A+%22{premiered}%22%2C+%22originaltitle%22%3A+%22{title_url}%22%2C+%22cast%22%3A+%5B%22{actors}%22%5D%2C+%22mpaa%22%3A+%22%22%7D"
+}

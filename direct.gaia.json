@@ -1,0 +1,10 @@
+{
+	"name": "[COLOR FFA0C12C]Gaia[/COLOR]",
+	"plugin": "plugin.video.gaia",
+	"priority": 200,
+	"is_resolvable": "false",
+	"play_movie": "plugin://plugin.video.gaia/?action=scrape&media=movie&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&trakt={trakt}&title={title_url}&year={year}&premiered={premiered}&gaia=True",
+	"play_episode": "plugin://plugin.video.gaia/?action=scrape&media=show&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&trakt={trakt}&title={title_url}&year={showyear}&premiered={premiered}&season={season}&episode={episode}&tvshowtitle={showname_url}&gaia=True",
+	"search_movie": "plugin://plugin.video.gaia/?action=search&media=movie&query={clearname_url}&gaia=True",
+	"search_episode": "plugin://plugin.video.gaia/?action=search&media=show&query={clearname_url}&gaia=True"
+}

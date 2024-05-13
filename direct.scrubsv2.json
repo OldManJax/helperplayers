@@ -1,0 +1,8 @@
+{
+  "name" : "Scrubs V2", 
+  "plugin" : "plugin.video.scrubsv2",
+  "priority" : 500,
+  "is_resolvable" : "true",  
+  "play_movie" : "plugin://plugin.video.scrubsv2/?action=play&title={title_+}&year={year}&imdb={imdb}&t={now}",
+  "play_episode" : "plugin://plugin.video.scrubsv2/?action=play&title={title_+}&year={year}&imdb={imdb}&tvdb={id}&season={season}&episode={episode}&tvshowtitle={clearname_+}&premiered={firstaired}&t={now}"
+}

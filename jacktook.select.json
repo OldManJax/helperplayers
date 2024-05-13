@@ -1,0 +1,8 @@
+{
+    "name": "[B][COLOR snow]Jacktook[/COLOR][/B]",
+    "plugin": "plugin.video.jacktook",
+    "priority": 500,
+    "is_resolvable": "false",
+    "search_movie": "plugin://plugin.video.jacktook/search?mode=movie&query={title}&ids={tmdb}%2C%20{tvdb}%2C%20{imdb}",
+    "search_episode": "plugin://plugin.video.jacktook/search?mode=tv&query={showname}&ids={tmdb}%2C%20{tvdb}%2C%20{imdb}&tvdata={title}%2C%20{episode}%2C%20{season}"
+}

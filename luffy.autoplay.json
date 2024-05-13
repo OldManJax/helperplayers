@@ -1,0 +1,8 @@
+{
+    "name" : "Luffy Auto Play",
+    "plugin" : "plugin.video.luffy",
+    "priority" : 500,
+    "is_resolvable": "true",
+    "play_movie" : "plugin://plugin.video.luffy/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",
+    "play_episode" : "plugin://plugin.video.luffy/?mode=play_media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}"
+}

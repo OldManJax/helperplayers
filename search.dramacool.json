@@ -1,0 +1,16 @@
+{
+   "name"             : "[B][COLOR snow]Dramacool[/COLOR][/B]",
+   "plugin"           : "plugin.video.dramacool",
+   "priority"         : 500,
+   "is_resolvable"    : "false",
+   "search_movie"     : [
+						 
+   "plugin://plugin.video.dramacool/search?type=%22movies%22,return",
+   {"keyboard": "{title}"}
+					  ],
+   "search_episode"   : [
+						 
+   "plugin://plugin.video.dramacool/search?type=%22movies%22,return",
+   {"keyboard": "{showname}"}							
+					  ]
+}

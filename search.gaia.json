@@ -1,0 +1,8 @@
+{
+	"name": "[COLOR FFA0C12C]Gaia[/COLOR]",
+	"plugin": "plugin.video.gaia",
+	"priority": 200,
+	"is_resolvable": "false",
+	"search_movie": "plugin://plugin.video.gaia/?action=search&media=movie&query={clearname_url}&gaia=True",
+	"search_episode": "plugin://plugin.video.gaia/?action=search&media=show&query={clearname_url}&gaia=True"
+}

@@ -1,0 +1,7 @@
+{
+    "name" : "[COLOR FF00BFFF]Seren[/COLOR] (Smart Play)",
+    "plugin" : "plugin.video.seren",
+    "priority" : 165,
+    "is_resolvable" : "false",
+    "play_episode" : "plugin://plugin.video.seren/?action=getSources&smartPlay=true&source_select=false&forceresumecheck=true&actionArgs=%7B%22episode%22%3A%20{episode}%2C%20%22item_type%22%3A%20%22episode%22%2C%20%22season%22%3A%20{season}%2C%20%22trakt_id%22%3A%20{trakt}%7D"
+}

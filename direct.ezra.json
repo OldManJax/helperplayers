@@ -1,0 +1,7 @@
+{
+    "name" : "Ezra",
+    "plugin" : "plugin.video.ezra",
+    "priority" : 500,
+    "play_movie" : "plugin://plugin.video.ezra/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",
+    "play_episode" : "plugin://plugin.video.ezra/?mode=play_media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}"
+}
