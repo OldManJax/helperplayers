@@ -1,0 +1,8 @@
+{
+    "name" : "Unleashed Auto Play", 
+    "plugin" : "plugin.video.chainsunleashed", 
+    "priority" : 100, 
+    "is_resolvable" : "true", 
+    "play_episode" : "plugin://plugin.video.chainsunleashed/?action=play&title={title_url}&year={showyear}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}select=1", 
+    "play_movie" : "plugin://plugin.video.chainsunleashed/?action=play&title={title_url}&year={year}&imdb={imdb}&tmdb={tmdb}&select=1"
+}
