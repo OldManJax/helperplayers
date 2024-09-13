@@ -1,7 +1,7 @@
 # TheMovieDb-Helper json Players
 
-Players for TheMovieDb-Helper Add-on in Kodi 20 and 21 saved from the MrGSI repo.
-I have added a couple new players that were easy to create but I have very little understanding how they work.
+Players for TheMovieDb-Helper Add-on.
+Most of these player I copied, some I have fixed. I have also added a few new players that were easy to create as mods of players for similar add-ons. 
 
 I have this list for my private build, but anyone can use it.
 You can download the zip file or use the Helper settings and enter this URL:

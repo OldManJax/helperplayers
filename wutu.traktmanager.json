@@ -1,8 +1,0 @@
-{
-    "name" : "Wutu (Trakt Manager)", 
-    "plugin" : "plugin.video.wutu", 
-    "priority" : 103, 
-    "is_resolvable" : "true", 
-    "play_episode" : "plugin://plugin.video.wutu/?action=tools_traktManager&name={title_url}&imdb={imdb}&tvdb={tvdb}&season={season}&episode={episode}", 
-    "play_movie" : "plugin://plugin.video.wutu/?action=tools_traktManager&name={title_url}&imdb={imdb}"
-}
