@@ -6,3 +6,5 @@ Most of these player I copied, some I have fixed. I have also added a few new pl
 I have this list for my private build, but anyone can use it.
 You can download the zip file or use the Helper settings and enter this URL:
 https://oldmanjax.github.io/jsonplayers.zip
+or
+bit.ly/tmdbzip
