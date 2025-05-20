@@ -1,8 +1,0 @@
-{
-    "name" : "Infinity (Source Select)", 
-    "plugin" : "plugin.video.infinity", 
-    "priority" : 100, 
-    "is_resolvable" : "true", 
-    "play_episode" : "plugin://plugin.video.infinity/?action=play&title={title_url}&year={showyear}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}&select=0", 
-    "play_movie" : "plugin://plugin.video.infinity/?action=play&title={title_url}&year={year}&imdb={imdb}&tmdb={tmdb}&select=0"
-}

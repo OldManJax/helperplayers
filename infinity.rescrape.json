@@ -1,8 +1,0 @@
-{
-    "name" : "Infinity (Rescrape Menu Select)", 
-    "plugin" : "plugin.video.infinity", 
-    "priority" : 102, 
-    "is_resolvable" : "true", 
-    "play_episode" : "plugin://plugin.video.infinity/?action=rescrapeMenu&title={title_url}&year={showyear}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}", 
-    "play_movie" : "plugin://plugin.video.infinity/?action=rescrapeMenu&title={title_url}&year={year}&imdb={imdb}&tmdb={tmdb}"
-}

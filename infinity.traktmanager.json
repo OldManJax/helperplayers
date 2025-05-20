@@ -1,8 +1,0 @@
-{
-    "name" : "Infinity (Trakt Manager)", 
-    "plugin" : "plugin.video.infinity", 
-    "priority" : 103, 
-    "is_resolvable" : "true", 
-    "play_episode" : "plugin://plugin.video.infinity/?action=tools_traktManager&name={title_url}&imdb={imdb}&tvdb={tvdb}&season={season}&episode={episode}", 
-    "play_movie" : "plugin://plugin.video.infinity/?action=tools_traktManager&name={title_url}&imdb={imdb}"
-}

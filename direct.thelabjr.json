@@ -1,8 +1,0 @@
-{
-  "name" : "TheLab Jr", 
-  "plugin" : "plugin.video.thelabjr",
-  "priority" : 500,
-  "is_resolvable" : "true",  
-  "play_movie" : "plugin://plugin.video.thelabjr/?action=play&title={title_+}&year={year}&imdb={imdb}&t={now}",
-  "play_episode" : "plugin://plugin.video.thelabjr/?action=play&title={title_+}&year={year}&imdb={imdb}&tvdb={id}&season={season}&episode={episode}&tvshowtitle={clearname_+}&premiered={firstaired}&t={now}"
-}
