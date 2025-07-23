@@ -1,0 +1,14 @@
+{
+  "name" : "WatchNixtoons2",
+  "plugin" : "plugin.video.watchnixtoons2",
+  "priority" : 500,
+  "is_resolvable": "false",
+  "search_movie"  : [
+                      "plugin://plugin.video.watchnixtoons2/?action=actionSearchMenu&path=%2Fsearch&searchType=movies&searchTitle=Search+Movie+Name",
+                      {"keyboard": "{title}"}
+                    ],
+  "search_episode"  : [
+                        "plugin://plugin.video.watchnixtoons2/?action=actionSearchMenu&path=%2Fsearch&searchType=series&searchTitle=Search+Cartoon%2FAnime+Name",
+                        {"keyboard": "{showname}"}
+                      ]
+}
