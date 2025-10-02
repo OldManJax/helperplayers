@@ -3,6 +3,6 @@
     "plugin": "plugin.video.otaku",
     "priority": 500,
     "is_resolvable": "false",
-    "play_movie": "plugin://plugin.video.otaku/tmdb_helper?title={title_url}&source_select=false&actionArgs=%7B%27tmdb_id%27%3A%20{tmdb}%2C%20%27item_type%27%3A%20%27movie%27%7D",
-    "play_episode": "plugin://plugin.video.otaku/tmdb_helper?title={title_url}&source_select=false&actionArgs=%7B%27tmdb_id%27%3A%20{tmdb}%2C%20%27item_type%27%3A%20%27tv%27%2C%20%27season%27%3A%20{season}%2C%20%27episode%27%3A%20{episode}%7D"
+    "play_movie": "plugin://plugin.video.otaku/tmdb_helper?source_select=false&actionArgs=%7B%27tmdb_id%27%3A%20{tmdb}%2C%20%27tvdb_id%27%3A%20{tvdb}%2C%20%27imdb_id%27%3A%20%27{imdb}%27%2C%20%27trakt_id%27%3A%20{trakt}%2C%20%27item_type%27%3A%20%27movie%27%7D",
+    "play_episode": "plugin://plugin.video.otaku/tmdb_helper?source_select=false&actionArgs=%7B%27tmdb_id%27%3A%20{tmdb}%2C%20%27tvdb_id%27%3A%20{tvdb}%2C%20%27imdb_id%27%3A%20%27{imdb}%27%2C%20%27trakt_id%27%3A%20{trakt}%2C%20%27item_type%27%3A%20%27tv%27%2C%20%27season%27%3A%20{season}%2C%20%27episode%27%3A%20{episode}%7D"
 }
