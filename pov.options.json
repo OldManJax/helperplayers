@@ -1,8 +1,8 @@
 {
-    "name": "POV Options Menu",
+    "name": "POV - Options Menu",
     "plugin": "plugin.video.pov",
-    "priority": 500,
+    "priority": 202,
     "is_resolvable": "true",
-    "play_movie": "plugin://plugin.video.pov/?mode=options_menu_choice&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=false",
-    "play_episode": "plugin://plugin.video.pov/?mode=options_menu_choice&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&autoplay=false"
+    "play_movie": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=options_menu_choice&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=False)",
+    "play_episode": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=options_menu_choice&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&autoplay=False)"
 }

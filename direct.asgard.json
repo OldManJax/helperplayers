@@ -1,8 +1,0 @@
-{
-  "name": "asgard",
-  "plugin": "plugin.video.asgard",
-  "priority": 500,
-  "is_resolvable" : "true",
-  "play_movie": "plugin://plugin.video.asgard/?mode=15&dates=+&episode=+&description={plot_+}&show_original_year={year}&fanart={fanart}&heb_name={title_+}&iconimage={poster}&original_title={title_+}&eng_name=+&data={year}&url=www&fav_status=false&tmdbid=+&season=+&isr=0&last_id=&image_master=&id={id}name={title_+}&video_data=%7B%22rating%22%3A+%220%22%2C+%22episode%22%3A+0%2C+%22title%22%3A+%22{title_+}%22%2C+%22season%22%3A+0%2C+%22TVshowtitle%22%3A+%22%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22plot%22%3A+%22{plot_+}%22%2C+%22OriginalTitle%22%3A+%22{title_+}%22%2C+%22year%22%3A+%22{year}%22%2C+%22genre%22%3A+%22 %22%2C+%22id%22%3A+%22{id}%22%2C+%22trailer%22%3A+%22plugin%3A%2F%2Fplugin.video.asgard%3Fmode%3D25%26id%3D{id}%26url%3Dmovie%22%7D",
-  "play_episode": "plugin://plugin.video.asgard/?mode=15&dates=+&episode={episode}&description={plot_+}&all_w=%7B%7D&show_original_year={year}&fanart={fanart}&heb_name={title_+}&iconimage={poster}&original_title={showname_+}&eng_name={clearname_+}&data={year}&url=www&amp;fav_status=false&tmdbid={tvdb}&season={season}&isr=0&last_id=&image_master=&id={tmdb}&name={clearname_+}&video_data=%7B%22rating%22%3A+%220%22%2C+%22Episode%22%3A+{episode}%2C+%22title%22%3A+%22{title_+}%22%2C+%22Season%22%3A+{season}%2C+%22TVshowtitle%22%3A+%22{clearname_+}%22%2C+%22mediatype%22%3A+%22episode%22%2C+%22premiered%22%3A+%22{premiered}%22%2C+%22plot%22%3A+%22{plot_+}%22%2C+%22OriginalTitle%22%3A+%22{showname_+}%22%2C+%22year%22%3A+%22{year}%22%2C+%22id%22%3A+%22{tmdb}%22%7D&t={now}"
-}

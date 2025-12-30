@@ -1,8 +1,8 @@
 {
-    "name": "Fen Light Auto Play",
+    "name": "FenLight - Auto Play",
     "plugin": "plugin.video.fenlight",
     "priority": 500,     
     "is_resolvable" : "true", 
-    "play_movie": "plugin://plugin.video.fenlight/?mode=playback.media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=true",
-    "play_episode": "plugin://plugin.video.fenlight/?mode=playback.media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&autoplay=true"
+    "play_movie": "executebuiltin://RunPlugin(plugin://plugin.video.fenlight/?mode=playback.media&media_type=movie&tmdb_id={tmdb}&autoplay=true)",
+    "play_episode": "executebuiltin://RunPlugin(plugin://plugin.video.fenlight/?mode=playback.media&media_type=episode&tmdb_id={tmdb}&season={season}&episode={episode}&autoplay=true)"
 }
