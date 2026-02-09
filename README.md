@@ -1,7 +1,7 @@
 # Players for TheMovieDb-Helper Add-on
 
-Dec 30 2025: 
-- Updated POV and FenLight players. 
+Feb 8 2026: 
+- Added Gears players
 
 Most of these players I copied, some I have fixed. I have also added a few new players that were easy to create as mods of players for similar add-ons. You can ask for others and I will look into it, but not all add-ons are compatible with the Helper.
 
