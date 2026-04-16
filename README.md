@@ -1,7 +1,7 @@
 # Players for TheMovieDb-Helper Add-on
 
-Feb 8 2026: 
-- Added Gears players
+Apr 16 2026: 
+- Added Salts Redux players
 
 Most of these players I copied, some I have fixed. I have also added a few new players that were easy to create as mods of players for similar add-ons. You can ask for others and I will look into it, but not all add-ons are compatible with the Helper.
 
