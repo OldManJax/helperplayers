@@ -3,6 +3,6 @@
     "plugin" : "plugin.video.pov",
     "priority" : 201,
     "is_resolvable": "true",
-    "play_movie": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=True)",
-    "play_episode": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=play_media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&autoplay=True)"
+    "play_movie": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=play_media&mediatype=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=true)",
+    "play_episode": "executebuiltin://RunPlugin(plugin://plugin.video.pov/?mode=play_media&mediatype=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&autoplay=true)"
 }
