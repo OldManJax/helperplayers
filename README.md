@@ -1,5 +1,8 @@
 # Players for TheMovieDb-Helper Add-on
 
+May 12 2026: 
+- Added new Red Light players
+
 May 11 2026: 
 - Updated POV players
 - Added Gratis Red player a new free sources add-on
