@@ -1,0 +1,8 @@
+{
+  "name" : "Vidscr", 
+  "plugin" : "plugin.video.vidscr",
+  "priority" : 500,
+  "is_resolvable" : "true",  
+  "play_movie" : "plugin://plugin.video.vidscr/?action=play_movie&title={title_+}&year={year}&tmdb_id={tmdb}",
+  "play_episode" : "plugin://plugin.video.vidscr/?action=play_episode&title={title_+}&year={year}&tmdb_id={tmdb}&season={season}&episode={episode}&tvshowtitle={clearname_+}&premiered={firstaired}"
+}
