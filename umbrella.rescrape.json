@@ -3,6 +3,6 @@
     "plugin" : "plugin.video.umbrella", 
     "priority" : 102, 
     "is_resolvable" : "true", 
-    "play_episode" : "plugin://plugin.video.umbrella/?action=rescrapeMenu&title={title_url}&year={showyear}&imdb={imdb}&tmdb={tmdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}", 
+    "play_episode" : "plugin://plugin.video.umbrella/?action=rescrapeMenu&title={title_url}&year={showyear}&tmdb={tmdb}&season={season}&episode={episode}&tvshowtitle={showname_url}&premiered={firstaired}", 
     "play_movie" : "plugin://plugin.video.umbrella/?action=rescrapeMenu&title={title_url}&year={year}&imdb={imdb}&tmdb={tmdb}"
 }
