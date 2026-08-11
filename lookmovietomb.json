@@ -1,0 +1,46 @@
+{
+    "name": "LookMovie",
+    "plugin": "plugin.video.lookmovietomb",
+    "priority": 200,
+    "is_resolvable": "true",
+    "assert": {
+        "play_movie": [
+            "title",
+            "year"
+        ],
+        "play_episode": [
+            "showname",
+            "season",
+            "episode"
+        ]
+    },
+    "play_movie": [
+        "plugin://plugin.video.lookmovietomb/?mode=listmovies&url=https://www.lookmovie2.to/movies/search/page/1?q={title_url}&page=1",
+        {
+            "label": "(?i).*{title}.*",
+            "year": "{year}",
+            "dialog": "auto",
+            "strict": "true"
+        },
+        {
+            "dialog": "true"
+        }
+    ],
+    "play_episode": [
+        "plugin://plugin.video.lookmovietomb/?mode=listmovies&url=https://www.lookmovie2.to/shows/search/page/1?q={showname_url}&page=1",
+        {
+            "label": "(?i).*{showname}.*",
+            "dialog": "auto",
+            "strict": "true"
+        },
+        {
+            "label": "(?i).*Season\\s*0?{season}.*"
+        },
+        {
+            "label": "(?i).*S0?{season}E0?{episode}.*"
+        },
+        {
+            "dialog": "true"
+        }
+    ]
+}
