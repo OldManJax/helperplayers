@@ -1,0 +1,8 @@
+{
+  "name": "Red Light Options Menu",
+  "plugin": "plugin.video.redlight",
+  "priority": 200,
+  "is_resolvable": "true",
+  "play_movie": "plugin://plugin.video.redlight/?mode=playback_choice&media_type=movie&meta={id}",
+  "play_episode": "plugin://plugin.video.redlight/?mode=playback_choice&media_type=episode&meta={tmdb}&season={season}&episode={episode}&episode_id={eptmdb}"
+}
