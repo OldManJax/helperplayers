@@ -1,5 +1,5 @@
 {
-  "name": "Red Light Options Menu",
+  "name": "[COLOR red]Red Light - Options Menu[/COLOR]",
   "plugin": "plugin.video.redlight",
   "priority": 200,
   "is_resolvable": "true",

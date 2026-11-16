@@ -1,5 +1,5 @@
 {
-    "name": "Red Light - Auto Play",
+    "name": "[COLOR red]Red Light - Auto Play[/COLOR]",
     "plugin": "plugin.video.redlight",
     "priority": 200,
     "is_resolvable": "true",

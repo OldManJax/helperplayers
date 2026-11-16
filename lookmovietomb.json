@@ -12,6 +12,12 @@
             "showname",
             "season",
             "episode"
+        ],
+        "search_movie": [
+            "title"
+        ],
+        "search_episode": [
+            "showname"
         ]
     },
     "play_movie": [
@@ -38,6 +44,28 @@
         },
         {
             "label": "(?i).*S0?{season}E0?{episode}.*"
+        },
+        {
+            "dialog": "true"
+        }
+    ],
+    "search_movie": [
+        "plugin://plugin.video.lookmovietomb/?mode=listmovies&url=https://www.lookmovie2.to/movies/search/page/1?q={title_url}&page=1",
+        {
+            "label": "(?i).*{title}.*",
+            "dialog": "auto",
+            "strict": "false"
+        },
+        {
+            "dialog": "true"
+        }
+    ],
+    "search_episode": [
+        "plugin://plugin.video.lookmovietomb/?mode=listmovies&url=https://www.lookmovie2.to/shows/search/page/1?q={showname_url}&page=1",
+        {
+            "label": "(?i).*{showname}.*",
+            "dialog": "auto",
+            "strict": "false"
         },
         {
             "dialog": "true"
